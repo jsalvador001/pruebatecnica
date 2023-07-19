@@ -1,0 +1,38 @@
+:root {
+  --white-color:                  #ffffff;
+  --section-bg-color:             #f1d00f;
+  --border-radius-small:          10px;
+}
+
+body {
+  background-color: var(--white-color);
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.contact-form {
+  background: var(--section-bg-color);
+  border-radius: var(--border-radius-small);
+  padding: 40px;
+}
+
+.contact-form h6 {
+  margin-bottom: 30px;
+}
+
+.custom-form .form-control,
+.input-group-file {
+  background-color: var(--section-bg-color);
+  box-shadow: none;
+  border: 0;
+  color: var(--p-color);
+  margin-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  outline: none;
+}
+.custom-form .form-control {
+  background-color: var(--white-color);
+}
